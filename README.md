@@ -14,4 +14,4 @@ OPTIONAL ARGUMENTS:
   -e, --encrypt   encrypt file
   -d, --decrypt   decrypt file
   -f, --file      file to encrypt/decrypt
-  -p, --path      path and directory name for batch encrypion
+  -p, --path      path and directory name for batch encryption
