@@ -1,5 +1,6 @@
-
+# cnox
 Python AES files encryption.
+
 Simple script for files encryption/decryption using PyCrypto toolkit.
 PyCrypto must be installed.
 
