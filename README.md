@@ -4,6 +4,7 @@ Python AES files encryption.
 Simple script for files encryption/decryption using PyCrypto toolkit.
 
 PyCrypto must be installed: https://pypi.python.org/pypi/pycrypto
+Argparse must be installed: https://pypi.python.org/pypi/argparse/1.3.0
 
 EXAMPLE:
   - ./cnox.py -e -f filename.txt    encrypt single file
