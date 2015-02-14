@@ -7,9 +7,15 @@ import random
 import getpass
 import sys
 
-from Crypto.Cipher import AES
-from argparse import ArgumentParser
-from argparse import RawTextHelpFormatter
+try:
+    from Crypto.Cipher import AES
+    from argparse import ArgumentParser
+    from argparse import RawTextHelpFormatter
+except:
+    print """
+    Pycrypto and argparse needed.
+    argparse: https: //pypi.python.org/pypi/argparse/1.3.0
+    pycrypto: https://pypi.python.org/pypi/pycrypto"""
 
 
 global ver
